@@ -62,12 +62,6 @@
     <string name="lineage_vendor_security_patch">سطح وصله امنیتی فروشنده</string>
     <string name="unknown">ناشناخته</string>
     <string name="app_killed_message">برنامه بسته شد</string>
-    <string name="kilobitspersecond_short">ک‌بیت/ث</string>
-    <string name="megabitspersecond_short">م‌بیت/ث</string>
-    <string name="kilobytespersecond_short">ک‌ب/ث</string>
-    <string name="megabytespersecond_short">م‌ب/ث</string>
-    <string name="kilobytespersecond_compact">ک</string>
-    <string name="megabytespersecond_compact">م</string>
     <string name="trust_feature_name">اعتماد</string>
     <string name="permlab_trustInterface">به رابط اعتماد دسترسی پیدا کنید</string>
     <string name="permdesc_trustInterface">به یک برنامه اجازه می دهد تا هشدارها و پیشنهادها اعتماد را نمایش دهد</string>

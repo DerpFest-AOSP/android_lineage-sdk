@@ -62,12 +62,6 @@
     <string name="lineage_vendor_security_patch">Состояние исправлений безопасности от производителя</string>
     <string name="unknown">Неизвестно</string>
     <string name="app_killed_message">Приложение завершено</string>
-    <string name="kilobitspersecond_short">кбит/с</string>
-    <string name="megabitspersecond_short">Мбит/с</string>
-    <string name="kilobytespersecond_short">кБ/с</string>
-    <string name="megabytespersecond_short">МБ/с</string>
-    <string name="kilobytespersecond_compact">k</string>
-    <string name="megabytespersecond_compact">M</string>
     <string name="trust_feature_name">Trust</string>
     <string name="permlab_trustInterface">доступ к интерфейсу Trust</string>
     <string name="permdesc_trustInterface">Позволяет приложению отображать предупреждения и предложения Trust</string>

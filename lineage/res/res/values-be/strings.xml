@@ -36,12 +36,6 @@
     <string name="lineage_version">Версія DerpFest</string>
     <string name="unknown">Невядома</string>
     <string name="app_killed_message">Праграма спынена</string>
-    <string name="kilobitspersecond_short">кбіт/с</string>
-    <string name="megabitspersecond_short">Мбіт/с</string>
-    <string name="kilobytespersecond_short">кБ/с</string>
-    <string name="megabytespersecond_short">МБ/с</string>
-    <string name="kilobytespersecond_compact">к</string>
-    <string name="megabytespersecond_compact">М</string>
     <string name="trust_feature_name">Trust</string>
     <string name="permlab_trustInterface">доступ да інтэрфейсу Trust</string>
     <string name="trust_notification_title_security">Trust \u2022 Бяспека сістэмы</string>

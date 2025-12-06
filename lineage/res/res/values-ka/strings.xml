@@ -62,12 +62,6 @@
     <string name="lineage_vendor_security_patch">მწარმოებლისგან უსაფრთხოების შესწორების დონე</string>
     <string name="unknown">უცნობი</string>
     <string name="app_killed_message">პროგრამა გაითიშა</string>
-    <string name="kilobitspersecond_short">კბიტ/წმ</string>
-    <string name="megabitspersecond_short">მბიტ/წმ</string>
-    <string name="kilobytespersecond_short">კბაიტ/წმ</string>
-    <string name="megabytespersecond_short">მბაიტ/წმ</string>
-    <string name="kilobytespersecond_compact">კ</string>
-    <string name="megabytespersecond_compact">მ</string>
     <string name="trust_feature_name">Trust</string>
     <string name="permlab_trustInterface">Trust-გარსთან წვდომა</string>
     <string name="permdesc_trustInterface">პროგრამისთვის ნების დართვა, რომ აჩვენოს Trust-ცნობები და შემოთავაზებები</string>
