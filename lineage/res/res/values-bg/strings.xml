@@ -62,12 +62,6 @@
     <string name="lineage_vendor_security_patch">Ниво на сигурност на доставчик</string>
     <string name="unknown">Неизвестно</string>
     <string name="app_killed_message">Приложението е спряно</string>
-    <string name="kilobitspersecond_short">kб/с</string>
-    <string name="megabitspersecond_short">Mб/с</string>
-    <string name="kilobytespersecond_short">kБ/с</string>
-    <string name="megabytespersecond_short">MБ/с</string>
-    <string name="kilobytespersecond_compact">k</string>
-    <string name="megabytespersecond_compact">M</string>
     <string name="trust_feature_name">Trust</string>
     <string name="permlab_trustInterface">достъп до Trust интерфейс</string>
     <string name="permdesc_trustInterface">Позволява на приложението да показка предложения и предупреждения</string>

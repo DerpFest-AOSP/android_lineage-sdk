@@ -52,10 +52,6 @@
     <string name="lineage_version">Версія DerpFest</string>
     <string name="lineage_vendor_security_patch">Рівень виправлень системи безпеки від виробника</string>
     <string name="unknown">Невідомо</string>
-    <string name="kilobitspersecond_short">кбіт/с</string>
-    <string name="megabitspersecond_short">Мбіт/с</string>
-    <string name="kilobytespersecond_short">кБ/с</string>
-    <string name="megabytespersecond_short">МБ/с</string>
     <string name="trust_feature_name">Trust</string>
     <string name="trust_notification_title_onboarding">Відкрийте для себе Trust</string>
     <string name="trust_notification_content_onboarding">Дізнайтесь, як убезпечити пристрій</string>
