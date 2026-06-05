@@ -1043,6 +1043,19 @@ public final class LineageSettings {
                 new InclusiveIntegerRangeValidator(0, 2);
 
         /**
+         * Status bar battery time remaining estimate
+         * 0: Hide the battery estimate
+         * 1: Show the battery estimate in QS
+         * default: 1
+         */
+        public static final String STATUS_BAR_SHOW_BATTERY_ESTIMATE =
+                "status_bar_show_battery_estimate";
+
+        /** @hide */
+        public static final Validator STATUS_BAR_SHOW_BATTERY_ESTIMATE_VALIDATOR =
+                sBooleanValidator;
+
+        /**
          * Whether the phone ringtone should be played in an increasing manner
          * 0 = 0ff, 1 = on
          */
@@ -2176,6 +2189,8 @@ public final class LineageSettings {
             VALIDATORS.put(STATUS_BAR_BATTERY_STYLE, STATUS_BAR_BATTERY_STYLE_VALIDATOR);
             VALIDATORS.put(STATUS_BAR_SHOW_BATTERY_PERCENT,
                     STATUS_BAR_SHOW_BATTERY_PERCENT_VALIDATOR);
+            VALIDATORS.put(STATUS_BAR_SHOW_BATTERY_ESTIMATE,
+                    STATUS_BAR_SHOW_BATTERY_ESTIMATE_VALIDATOR);
             VALIDATORS.put(INCREASING_RING, INCREASING_RING_VALIDATOR);
             VALIDATORS.put(INCREASING_RING_START_VOLUME,
                     INCREASING_RING_START_VOLUME_VALIDATOR);
