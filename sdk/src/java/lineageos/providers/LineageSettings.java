@@ -375,7 +375,7 @@ public final class LineageSettings {
             new InclusiveIntegerRangeValidator(0, 86400);
 
     private static final Validator sHardwareKeyActionvalidator =
-            new InclusiveIntegerRangeValidator(0, 18);
+            new InclusiveIntegerRangeValidator(0, 19);
 
     private static final Validator sAlwaysTrueValidator = new Validator() {
         @Override
@@ -1143,6 +1143,7 @@ public final class LineageSettings {
          * 16 - Notifications
          * 17 - Toggle Qs Panel
          * 18 - Ringer Modes
+         * 19 - Take partial screenshot
          */
         public static final String KEY_HOME_LONG_PRESS_ACTION = "key_home_long_press_action";
 
