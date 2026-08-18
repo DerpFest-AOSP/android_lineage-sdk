@@ -2761,6 +2761,17 @@ public final class LineageSettings {
         public static final String QS_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
 
         /**
+         * Whether to show the volume slider in quick settings panel.
+         * 0 = Never, 1 = show when expanded, 2 = show always
+         * @hide
+         */
+        public static final String QS_SHOW_VOLUME_SLIDER = "qs_show_volume_slider";
+
+        /** @hide */
+        public static final Validator QS_SHOW_VOLUME_SLIDER_VALIDATOR =
+                new InclusiveIntegerRangeValidator(0, 2);
+
+        /**
          * Brightness slider position in the quick settings panel
          * 0 = Top
          * 1 = Bottom
@@ -2992,6 +3003,7 @@ public final class LineageSettings {
             VALIDATORS.put(GESTURE_BACK_EXCLUDE_TOP, GESTURE_BACK_EXCLUDE_TOP_VALIDATOR);
             VALIDATORS.put(QS_TILES_TOGGLEABLE_ON_LOCK_SCREEN,
                     QS_TILES_TOGGLEABLE_ON_LOCK_SCREEN_VALIDATOR);
+            VALIDATORS.put(QS_SHOW_VOLUME_SLIDER, QS_SHOW_VOLUME_SLIDER_VALIDATOR);
             VALIDATORS.put(TRUST_WARNINGS, TRUST_WARNINGS_VALIDATOR);
             VALIDATORS.put(VOLUME_PANEL_ON_LEFT, VOLUME_PANEL_ON_LEFT_VALIDATOR);
         }
