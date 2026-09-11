@@ -1021,13 +1021,15 @@ public final class LineageSettings {
          * 1: Display the battery as a circle
          * 2: Display the battery as plain text
          * 3: Display the battery as a dotted circle
+         * 4: Reserved (themed / overlay battery, not a user setting)
+         * 5: Display the battery as a full (filled) circle
          * default: 0
          */
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
         /** @hide */
         public static final Validator STATUS_BAR_BATTERY_STYLE_VALIDATOR =
-                new InclusiveIntegerRangeValidator(0, 3);
+                new InclusiveIntegerRangeValidator(0, 5);
 
         /**
          * Status bar battery %
